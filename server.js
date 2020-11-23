@@ -1,17 +1,18 @@
 const express = require('express')
+const path = require('path')
 
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('<h1>Home Page</h1>')
+  res.sendFile(path.join(__dirname, 'index.html'))
 })
 
 app.get('/portfolio', (req, res) => {
-  res.send('<h1>Portfolio Page</h1>')
+  res.sendFile(path.join(__dirname, 'portfolio.html'))
 })
 
 app.get('/contact', (req, res) => {
-  res.send('<h1>Contact Page</h1>')
+  res.sendFile(path.join(__dirname, 'contact.html'))
 })
 
 app.listen(3000)
