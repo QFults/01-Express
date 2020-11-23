@@ -7,3 +7,11 @@
 - Intro to Postman
 - Intro to HTTP Methods
 - RESTful Routing
+
+
+## Notes
+
+Create --> POST
+Read --> GET
+Update --> PUT
+Delete --> DELETE

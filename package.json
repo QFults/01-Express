@@ -1,0 +1,24 @@
+{
+  "name": "01-Express",
+  "version": "1.0.0",
+  "description": "- Intro to Express\r - Modular Routing\r - Intro to Postman\r - Intro to HTTP Methods\r - RESTful Routing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QFults/01-Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QFults/01-Express/issues"
+  },
+  "homepage": "https://github.com/QFults/01-Express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
